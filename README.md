@@ -1,0 +1,2 @@
+# CoolBox
+Documentation coming soon
