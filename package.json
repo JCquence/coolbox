@@ -1,0 +1,28 @@
+{
+  "name": "coolbox",
+  "version": "0.1.0",
+  "description": "Documentation coming soon",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.9.1",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "devDependencies": {
+    "jit-grunt": "~0.9.1",
+    "grunt-contrib-concat": "~0.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JCquence/coolbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCquence/coolbox/issues"
+  },
+  "homepage": "https://github.com/JCquence/coolbox"
+}

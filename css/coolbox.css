@@ -1,0 +1,91 @@
+.cb-overlay
+{
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.1s linear;
+    z-index: -1;
+}
+
+.cb-loader
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../image/loader.gif');
+    border-radius: 5px;
+    height: 24px;
+    left: 50%;
+    margin: -12px 0 0 -12px;
+    opacity: 0;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    transition: opacity 0.1s linear;
+    width: 24px;
+    z-index: -1;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+       (min--moz-device-pixel-ratio: 1.5),
+       (-o-min-device-pixel-ratio: 3/2),
+       (min-resolution: 1.5dppx)
+{
+    .cb-loader
+    {
+        background-image: url('../image/loader@2x.gif');
+        background-size: 24px 24px;
+    }
+}
+
+.cb
+{
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: all .2s linear;
+    transition-property: height, opacity, width, top, left;
+}
+
+.cb-inner
+{
+    height: 100%;
+    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.cb-close
+{
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.cb-title
+{
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: #ffffff;
+    padding: 10px 20px;
+    position: absolute;
+}
+
+.cb-image
+{
+    border-radius: 5px;
+}
